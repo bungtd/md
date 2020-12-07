@@ -1,0 +1,714 @@
+/* MAIN MENU */
+
+.main-menu>li a {
+    font-family: 'Agency FB';
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-menu>li:last-child a {
+    background: #f2a900;
+}
+
+.main-menu>li:last-child a:hover {
+    color: #000;
+}
+
+.main-menu>li:last-child>a>span {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.main-menu>li:last-child>a>span:before {
+    bottom: 5px;
+    background: #000;
+}
+
+.custom-logo {
+    -webkit-filter: drop-shadow(0px 0px 5px #f2a900);
+    filter: drop-shadow(0px 0px 5px #f2a900);
+}
+
+.bg-alt {
+    background-color: #eeeeee;
+}
+
+.about-text p {
+    text-align: justify;
+}
+
+
+/* BANNER */
+
+.image-header {
+    background: url(../images/banners/banner.jpg?v2) center;
+    background-size: cover;
+    background-color: black;
+    background-repeat: repeat;
+    position: relative;
+    height: 100%;
+    text-align: center;
+}
+
+.image-header img {
+    max-width: 100%;
+    height: auto;
+    max-height: 256px;
+}
+
+@media screen and (max-width: 1280px) {
+    .image-header {
+        min-height: auto;
+    }
+}
+
+.image-header-v2 {
+    text-align: center;
+    background-color: black;
+}
+
+.image-header-v2 img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*
+@media screen and (min-width: 1281px) {
+	.image-header-v2 img {
+		width: auto;
+		max-height: 100%;
+	}
+}
+*/
+
+
+/* FORM */
+
+.leave-comment-wrap .item span {
+    font-size: 16px;
+}
+
+.leave-comment-wrap .item .wakil-outer {
+    padding: 15px 10px;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #fff;
+    font-size: 14px;
+    color: #666;
+    line-height: normal;
+}
+
+.leave-comment-wrap .item input[type="date"] {
+    padding: 15px 10px;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #fff;
+    font-size: 14px;
+    color: #666;
+    line-height: normal;
+}
+
+.leave-comment-wrap .item input[type="text"]:disabled {
+    background: #eee;
+}
+
+.leave-comment-wrap .item .outer-radio {
+    padding: 12px 10px;
+    background: #fff;
+    font-size: 14px;
+    color: #666;
+    line-height: normal;
+}
+
+.leave-comment-wrap .item .outer-checkbox {
+    padding: 12px 10px;
+    background: #fff;
+    font-size: 14px;
+    color: #666;
+    line-height: normal;
+}
+
+.leave-comment-wrap .item input[type="file"] {
+    padding: 12px 10px;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #fff;
+    font-size: 14px;
+    color: #666;
+    line-height: normal;
+}
+
+.leave-comment-wrap .item select {
+    padding: 15px 10px;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #fff;
+    font-size: 14px;
+    color: #666;
+    line-height: normal;
+}
+
+.preview-label {
+    padding-bottom: 7px !important;
+}
+
+.preview-content {
+    border: dashed 2px #eee;
+    background: #fff;
+}
+
+.leave-comment-wrap .item span.team-name-preview {
+    font-family: "Agency FB";
+    font-size: 30px;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    right: 20px;
+    transform: translate(0%, -50%);
+}
+
+.team-logo-outer {
+    height: 522px;
+    border: dashed 5px white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-logo-preview {
+    max-width: 100%;
+    max-height: 512px;
+}
+
+.team-logo-preview-sm {
+    max-width: 100%;
+    max-height: 128px;
+}
+
+@media screen and (max-width: 550px) {
+    .team-logo-outer {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.alert h4 {
+    color: #000000;
+}
+
+
+/* BANNER */
+
+
+/*
+.banner-img {
+    background-repeat:no-repeat !important;
+    background-size:contain !important;
+    background-position:center center !important;
+    background-color: black !important;
+    height:100% !important;
+}
+@media screen and (max-width: 992px) {
+    .banner-slider,
+    .banner-img {
+        height: 663px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .banner-slider,
+    .banner-img {
+        height: 480px !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    .banner-slider,
+    .banner-img {
+        height: 320px !important;
+    }
+}
+#main-slider {
+    min-height: 320px;
+    max-height: 663px;
+}
+*/
+
+
+/* TABLE */
+
+.standing-full tr th {
+    height: 50px;
+    background: #555555;
+}
+
+.standing-full tr th.rundown {
+    font-size: 16px;
+    height: 40px;
+    text-align: center;
+}
+
+.standing-full tr td {
+    height: 40px;
+}
+
+.no-hover tr:hover td {
+    background: #fcfcfc;
+    cursor: default;
+}
+
+
+/* FAQ */
+
+.broadcast-item .arrow.faq {
+    height: 50px;
+    line-height: 50px;
+}
+
+.broadcast-item .item-head-body.faq {
+    padding: 10px;
+}
+
+.broadcast-item .item-body.faq {
+    padding-bottom: 20px;
+}
+
+
+/* SPONSOR */
+
+.carousel-inner {
+    min-height: 150px;
+}
+
+.carousel-inner .item {
+    vertical-align: middle;
+}
+
+.main-sponsor-slider-background {
+    padding-bottom: 0px;
+}
+
+
+/* PRIZEPOOL */
+
+.prizepool {
+    text-align: center;
+}
+
+.prizepool li {
+    list-style: square inside;
+}
+
+.prizepool h1 {
+    text-align: center;
+}
+
+.prizepool h3 {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.prizepool table {
+    display: inline-table;
+    margin-top: 20px;
+}
+
+.prizepool table tr:hover td {
+    cursor: default;
+    background-color: #f7f7f7;
+}
+
+.prizepool table tr td {
+    text-align: left;
+    background-color: #f7f7f7;
+    font-size: 14px;
+    padding: 10px 20px;
+    height: 30px;
+    border-top: 1px solid #e6e6e6;
+}
+
+table.table-vote tr td {
+    height: 40px;
+}
+
+.prizepool table tr td:last-child {
+    font-weight: normal;
+}
+
+.prizepool img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-inverse {
+    color: #f2a900;
+    background-color: #000000;
+}
+
+.btn-inverse:hover {
+    background-color: #f2a900;
+}
+
+
+/* FOOTER */
+
+.sportsmagazine-copyright-right {
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+    .sportsmagazine-copyright-right {
+        padding-top: 15px;
+        text-align: right;
+    }
+}
+
+
+/* ARROW IN SLIDER */
+
+.main-slider .nav-arrow.left-arrow,
+.main-slider .nav-arrow.right-arrow,
+.main-sponsor-slider .nav-arrow.left-arrow,
+.main-sponsor-slider .nav-arrow.right-arrow {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.main-slider .nav-arrow.left-arrow:hover,
+.main-slider .nav-arrow.right-arrow:hover,
+.main-sponsor-slider .nav-arrow.left-arrow:hover,
+.main-sponsor-slider .nav-arrow.right-arrow:hover {
+    background: rgba(255, 160, 0, 0.8);
+}
+
+.main-slider .nav-arrow.left-arrow:before,
+.main-slider .nav-arrow.right-arrow:before,
+.main-sponsor-slider .nav-arrow.left-arrow:before,
+.main-sponsor-slider .nav-arrow.right-arrow:before {
+    background: transparent;
+}
+
+.main-slider .nav-arrow.left-arrow:hover:before,
+.main-slider .nav-arrow.right-arrow:hover:before,
+.main-sponsor-slider .nav-arrow.left-arrow:hover:before,
+.main-sponsor-slider .nav-arrow.right-arrow:hover:before {
+    background: transparent;
+}
+
+
+/* MVP */
+
+#mvppopup:hover {
+    cursor: pointer;
+    opacity: .7;
+    transition: all 0.5s ease;
+}
+
+@media screen and (min-width: 992px) {
+    #mvppopup {
+        background: url('../images/400x122.jpg') no-repeat;
+        width: 400px;
+        height: 122px;
+        display: block;
+        position: fixed;
+        background-size: 100% 100%;
+        transition: all 0.5s ease;
+        text-align: center;
+        padding-left: 10px;
+        padding-top: 25px;
+        right: 10px;
+        top: 120px;
+        border-radius: 10px;
+        z-index: 1;
+    }
+    #mvppopup p {
+        font-family: Agency FB;
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 20px;
+        padding-left: 50px;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #mvppopup {
+        /* tablet dan mobile */
+        background: url('../images/KV - MVP.jpg') no-repeat;
+        position: fixed;
+        width: 100%;
+        height: 75px;
+        bottom: 0px;
+        background-size: 100% 100%;
+        text-align: center;
+        bottom: 0px;
+        right: 0px;
+        z-index: 1;
+        transition: all 0.5s ease;
+        display: block;
+        padding-left: 10px;
+        padding-top: 25px;
+    }
+    #mvppopup p {
+        display: none;
+    }
+    #sportsmagazine-footer2 {
+        height: 200px;
+        position: relative;
+    }
+}
+
+.team-information {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.player-information {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    /* padding: 16px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-vote {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    /* Green */
+}
+
+.button-vote:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
+
+.alert {
+    padding: 20px;
+}
+
+.alert.alert-danger {
+    background-color: #f44336;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+.alert.success {
+    background-color: #4CAF50;
+}
+
+.notification {
+    top: 0;
+    font-size: 16px;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    transition: all 0.5s ease;
+    text-align: center;
+}
+
+
+/* MISC */
+
+@media screen and (max-width: 991px) {
+    .hide-sm {
+        display: none;
+    }
+}
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+/* Add Animation */
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+
+/* The Close Button */
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background: #f2a900;
+    color: white;
+}
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background: #f2a900;
+    color: white;
+}
+
+.banner-img-normal {
+    display: block !important;
+    width: 100%;
+}
+
+.banner-img-wide {
+    display: none !important;
+    width: 100%;
+}
+
+@media screen and (min-width: 1301px) {
+    /* display wide */
+    .banner-img-normal {
+        display: none !important;
+    }
+    .banner-img-wide {
+        display: block !important;
+    }
+}
+
+.carousel.slide.banner-slider {
+    height: auto !important;
+}
+
+#main-slider {
+    min-height: 100px;
+}
+
+.main-slider .carousel-inner {
+    position: relative;
+}
+
+
+/*
+@media screen and (max-width: 991px) {
+	#main-slider {
+		min-height: 540px;
+	}
+}
+@media screen and (max-width: 875px) {
+	#main-slider {
+		min-height: 450px;
+	}
+}
+@media screen and (max-width: 759px) {
+	#main-slider {
+		min-height: 400px;
+	}
+}
+@media screen and (max-width: 667px) {
+	#main-slider {
+		min-height: 350px;
+	}
+}
+@media screen and (max-width: 575px) {
+	#main-slider {
+		min-height: 300px;
+	}
+}
+@media screen and (max-width: 400px) {
+	#main-slider {
+		min-height: 200px;
+	}
+}
+*/
+
+.item.banner-img {
+    height: auto !important;
+}
